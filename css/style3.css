@@ -1,0 +1,65 @@
+.flexbox-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.topnav {
+  color: orange;
+}
+.topnav a{
+  color: #e83a3a;
+  text-decoration: none;
+  padding: 5px;
+}
+.topnav a:hover {
+  color: orange;
+  text-align: center;
+}
+.topnav-centered a {
+  float: none;
+  padding-top: 20px;
+  position: absolute;
+  top: %;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2{
+  color: black;
+  text-align: center;
+  padding-bottom: 1px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+h3{
+  color: pink;
+  text-align: center;
+
+}
+body{
+  justify-content: center;
+  background: #FFFFFF;
+}
+img{
+  align-self: center;
+  padding: 40px;
+  padding-bottom: 5px;
+  height: 150px;
+}
+.center{
+  display: block;
+  margin-left: 0px;
+  margin-right: 30px;
+  width: 250px;
+}
+.flexbox-item{
+  width: 260px;
+  margin: 10px;
+  border: 3px;
+}
+
+}
+.flexbox-item-1{
+min-height: 100px;
+align-self: center;
+}
