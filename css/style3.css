@@ -3,8 +3,12 @@
   justify-content: center;
   text-align: center;
 }
+.flexbox-container p {
+  width: 300px;
+}
 .topnav {
   color: orange;
+  text-align: center;
 }
 .topnav a{
   color: #e83a3a;
